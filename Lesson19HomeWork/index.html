@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&amp;display=swap">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <form action="#" method="get">
+      <div class="block">
+        <div>
+          <p class="leftBlock">Текстовое поле в одну строчку:</p>
+        </div>
+        <div>
+          <input class="input1" type="text" />
+        </div>
+      </div>
+      <div class="block">
+        <div>
+          <p class="leftBlock">Радио-кнопки:</p>
+        </div>
+        <div class="blockRadio">
+          <div class="radioblock1"> 
+            <input class="radio" type="radio" name="radio_" checked/>
+            <label class="radio_label" for="radio_" >Вариант 1</label>
+            <input class="radio" type="radio" name="radio_"/>
+            <label class="radio_label" for="radio_">Вариант 2</label>
+          </div>
+          <div class="radioblock2">
+            <input class="radio" type="radio" name="radio_" />
+            <label class="radio_label" for="radio_">Вариант 3</label>
+          </div>
+        </div>
+      </div>
+      <div class="block">
+        <div>
+          <p class="leftBlock">Большое текстовое поле:</p>
+        </div>
+        <div>
+          <textarea name="" id="textarea" cols="31" rows="4"></textarea>
+        </div>
+      </div>
+      <div class="blockButtons">
+        <input class="buttonReset" type="reset" value="Очистить"/>
+        <input class="buttonSubmit" type="submit" value="Отправить" />
+      </div>
+    </form>
+  </body>
+</html>
