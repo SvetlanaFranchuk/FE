@@ -1,0 +1,40 @@
+*{
+    font-size: 12px;
+}
+
+button{
+    width: 120px;
+    height: 20px;
+}
+
+.task17{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+}
+
+.task18{
+    margin: 20px;
+}
+
+.task18_div1, .task18_div2, .task18_div3{
+    position: absolute;
+    z-index: 1;
+    top:-10px;  
+    width: 600px;
+}
+
+.task18_link1, .task18_link2, .task18_link3{
+    position: relative;
+    top:0;
+    z-index: 0;
+}
+
+.active_div{
+    display: block;
+    color: aqua;
+}
+
+.nonactive_div{
+    display: none;
+}

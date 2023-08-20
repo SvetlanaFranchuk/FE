@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div>//10. Дан абзац с числом и кнопка. По нажатию на кнопку возведите текст абзаца в квадрат.
+<p class="task10">25</p>
+<button onclick="exponentiale_2()">exponentiale_2</button>
+</div>
+
+<div>//11. Дан абзацы с числами, абзац и кнопка. По нажатию на кнопку найдите сумму значений абзацев и запишите ее в абзац.
+<p class="task11_number">2</p>
+<p class="task11_number">4</p>
+<p class="task11_number">6</p>
+<p class="task11_number">8</p>
+<p class="task11_number">10</p>
+<button onclick="sum_numbers()">sum_numbers</button>
+<p class="task11_result">sum=</p>
+</div>
+
+
+<div>//12. Дан абзац и кнопка. По нажатию на кнопку найдите сумму чисел от 1 до 100 и запишите результат в абзац.
+<p class="task12">sum From 0 to 100 = </p>
+<button onclick="sumFrom_0_To_100()">sum numbers</button>
+</div>    
+
+<div>//13. Даны абзацы, кнопка и див. По нажатию на кнопку найдите количество абзацев и выведите это значение в див.
+<p class="task13">pharagraf number 1</p>
+<p class="task13">pharagraf number 2</p>
+<p class="task13">pharagraf number 3</p>
+<p class="task13">pharagraf number 4</p>
+<p class="task13">pharagraf number 5</p>
+<p class="task13">pharagraf number 6</p>
+<p class="task13">pharagraf number 7</p>
+
+<button onclick="count_pharagraf()">count_pharagraf</button>
+<div class="task13_result">count pharagraf = </div>
+</div>
+
+<div>//14. Даны пустые абзацы и кнопка. По нажатию на кнопку заполните абзацы числами по порядку.
+    <p class="task14"></p>
+    <p class="task14"></p>
+    <p class="task14"></p>
+    <p class="task14"></p>
+    <p class="task14"></p>
+    <button onclick="number_pharagraf()">number_pharagraf</button>
+</div>
+
+<div>//15. Даны ссылки и кнопка. По нажатию на кнопку получите массив атрибутов href ссылок.
+<a class="task15" name="img1" target="_blank" href="https://unsplash.com/photos/a-scenic-view-of-a-lake-surrounded-by-mountains-6uBlQzvute8">img1</a>
+<a class="task15" name="img2" target="_blank" href="https://unsplash.com/photos/a-small-island-in-the-middle-of-a-lake-t1KOdo1z16I">img2</a>
+<a class="task15" name="img3" target="_blank" href="https://unsplash.com/photos/a-group-of-tall-bamboo-trees-in-a-forest-TivWRLWltVk">img3</a>
+<button onclick="arrayOfhref()">Array of href</button>
+</div>
+
+<div>//16. Дана ссылка, абзац и кнопка. По нажатию на кнопку запишите href ссылки в текст абзаца.
+    <a class="task16" name="img" target="_blank" href="https://unsplash.com/photos/a-group-of-tall-bamboo-trees-in-a-forest-TivWRLWltVk">img</a>
+    <p class="task16">Hear will be link</p>
+    <button onclick="getlink()">get link</button>
+</div>
+
+<div>//17. Дан див с шириной, высотой и границей, и кнопка. По клику на кнопку увеличьте размеры дива в два раза.
+    <div class="task17"></div>
+    <button onclick="changeOfSizeDiv()">change size of div</button>
+</div>
+
+
+<div>//18. Даны ссылки. Сделайте так, чтобы по наведению на любую ссылку над ней появлялось значение ее атрибута href.
+    <p class="task18"></p>
+    <a onmouseover="showLinks1()" onmouseout="outShowLinks1()" class="task18_link1" name="img1" target="_blank" href="https://unsplash.com/photos/a-scenic-view-of-a-lake-surrounded-by-mountains-6uBlQzvute8"> 
+    <div class="task18_div1"></div>  
+    link1</a>
+    <p class="task18"></p>
+    <a onmouseover="showLinks2()" onmouseout="outShowLinks2()" class="task18_link2" name="img2" target="_blank" href="https://unsplash.com/photos/a-small-island-in-the-middle-of-a-lake-t1KOdo1z16I"><div class="task18_div2"></div> link2</a>
+    <p class="task18"></p>
+    <a onmouseover="showLinks3()" onmouseout="outShowLinks3()" class="task18_link3" name="img3" target="_blank" href="https://unsplash.com/photos/a-group-of-tall-bamboo-trees-in-a-forest-TivWRLWltVk"><div class="task18_div3"></div> link3</a>  
+    <p class="task18"></p> 
+</div>
+    <script src="js/script.js"></script>
+</body>
+</html>
