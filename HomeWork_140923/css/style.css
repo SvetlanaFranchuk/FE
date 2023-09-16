@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  width: 100%;
+  height: 50px;
+  background-color: gold;
+  color: rgb(79, 127, 6);
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 2.2em;
+}
+
+.chapter {
+  width: 100%;
+  height: 270px;
+  margin: 5px 0;
+}
+
+.img {
+  height: 200px;
+  padding: 0 10px;
+  width: 230px;
+}
+
+.Games {
+  background-color: rgba(0, 255, 76, 0.567);
+  color: rgb(184, 16, 114);
+  font-size: 1em;
+}
+
+.for_flex {
+  display: flex;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+a {
+  padding: 0px 10px;
+}
+
+.Fairy_tails {
+  background-color: rgba(50, 156, 226, 0.567);
+  color: rgb(220, 25, 25);
+  font-size: 1em;
+}
+
+.cartoons {
+  background-color: rgba(242, 30, 231, 0.567);
+  color: rgb(86, 55, 198);
+  font-size: 1em;
+  margin: 10px 0 5px 0;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: gold;
+    color: rgb(79, 127, 6);
+    text-align: center;
+}
+  
+
+.little_img{
+    width: 45px;
+    height: 45px;
+    padding: 5px 0 0 ;
+}
+
