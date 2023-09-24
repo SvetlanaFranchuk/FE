@@ -1,0 +1,40 @@
+table{
+    width: 420px;
+    border: 2px double gray;
+}
+
+tr, th {
+    height: 40px;
+    border: 2px double gray;
+}
+
+.twoflags {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.flag{
+    width: 48%;
+    height: 35px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.notBold{
+    font-weight: normal;
+}
+
+.left{
+    text-align: left;
+}
+
+.col3{
+    width: 20%;
+}
+
+.col2{
+    width: 50%;
+}
