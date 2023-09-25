@@ -1,0 +1,10 @@
+body{
+    background-image: url(../img/Cat3.jpeg);
+    background-repeat: no-repeat;
+    background-position: right bottom; 
+    background-size: 400px auto;
+    /* right bottom no-repeat; */
+    margin-right: 200px;
+    
+    background-attachment: fixed; */
+}
