@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.Header{
+background-image: linear-gradient(to left, #03604e, #55efc4);  
+font-size: 30px;
+font-weight: 600;
+
+color:azure;
+text-align: center;
+}
+.footer{
+   text-align: center;
+   border: 2px double green;
+    }
+.h2{
+    text-align: center; 
+    font-size: 20px;
+}
+.hobby{
+    border: 2px double green;
+    background-color: #00cec9;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding: 5px;
+    padding-top: 0px;
+    }
+.work{
+    border: 2px double green;
+    background-color: #ffeaa7;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 2px;
+    padding: 5px;
+    }   
+    .family{
+        border: 2px double green;
+        background-color: #81ecec;
+        margin: 0;
+        text-align: left;
+        margin-bottom: 2px;
+        padding: 5px;
+        }     
+.img{
+        width: 80px;
+        height: 80px;
+    }
+    .small_img{
+        width: 15px;
+        height: 15px;
+
+    }
