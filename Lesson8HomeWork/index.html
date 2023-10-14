@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <form action="#" method="get">
+        <div class="topHead">
+            <h1>Tour Booking Form</h1>
+        </div>
+        <div class="row">
+            <label for="Name" id="_FLname">Name</label>
+        </div>
+        <div class="row">
+            <input type="text" name="FirstName" id="_FLname" placeholder="First Name">
+        </div>
+        <div class="row">
+            <input type="text" name="LastName" id="_FLname" placeholder="Last Name">
+        </div>
+        <div class="row">
+            <label for="Email" id="_email">Email</label>
+        </div>
+        <div class="row">
+            <input type="email" name="Email" id="_email" placeholder="name@mail.ru">
+        </div>
+        <div class="row">
+            <label for="Phone" id="_phone">Phone</label>
+        </div>
+        <div class="row">
+            <input type="tel" name="Phone" id="_phone" placeholder="### ### ####">
+        </div>
+        <div class="row">
+            <label for="Question1" id="_question1">When are you planning to visit?</label>
+        </div>
+        <div class="row">
+            <input type="date" name="Question1" id="_question1">
+        </div>
+        <div class="row">
+            <label for="Question2" id="_question2">How many people are in your group?</label>
+        </div>
+        <div class="row">
+            <input type="number" name="Question2" id="_question2" placeholder="">
+        </div>
+        <div class="row">
+            <label for="Question3" id="_question3">Which tour are you most interested in?</label>
+        </div>
+        <div class="row">
+            <select name="Question3" id="_question3">
+            <option value="*Please select*" selected>*Please select*</option>
+            <option value="tour1">tour1</option>
+            <option value="tour2">tour2</option>
+            <option value="tour3">tour3</option>
+            <option value="tour4">tour4</option>
+            </select>
+        </div>
+        <div class="row">
+            <label for="ContactWay" id="_contact">What is the best way to contact you?</label>
+        </div>    
+            <div class="_contact">
+                <input type="checkbox" id="_contact1" value="contact_phone">
+                <label for="contact_phone" id="_contact1" ">Phone</label>
+            </div>
+            <div class="_contact">
+                <input type="checkbox" id="_contact2" value="contact_email">
+                <label for="contact_email" id="_contact2" ">Email</label>
+            </div>
+            <div class="_contact">
+                <input type="checkbox" id="_contact3" value="contact_either" checked>
+                <label for="contact_either" id="_contact3" ">Either</label>
+            </div>
+        <div class="row">
+            <label for="Time_contact" id="_TContact">If phone, when is the best time of day a call-back?</label>
+        </div>
+        <div class="timeBox">  
+            <input type="radio" name="Time_contact" id="_timecontact1" value="_timecontact1" checked>
+            <label for="_timecontact1">8-11 AM</label>
+        </div>    
+        <div class="timeBox">   
+            <input type="radio" name="Time_contact" id="_timecontact2" value="_timecontact2">
+            <label for="_timecontact2">12-4 PM</label>
+        </div>    
+        <div class="timeBox">   
+            <input type="radio" name="Time_contact" id="_timecontact3" value="_timecontact3">
+            <label for="_timecontact3">6-10 PM</label>
+        </div>
+        <div class="row">
+            <label for="AnythingElse" id="_Else">Anything else we should know?</label>
+        </div>
+        <div class="row">
+            <textarea name="AnythingElse" id="_Else" cols="30" rows="1"></textarea>
+        </div>
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
